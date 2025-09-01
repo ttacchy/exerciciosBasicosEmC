@@ -1,0 +1,5 @@
+1 - Faça um programa para ler dois números reais, faça a divisão do primeiro número pelo segundo (se o segundo for diferente de zero).
+2 - Faça um programa para ler dois números reais e verificar se ambos são maiores que zero. Caso positivo, informar "Valores são válidos". Caso contrário, informar "Valores inválidos".
+3 - Os funcionários de uma empresa receberam um aumento de salário: técnicos, 50%; gerentes, 30%; demais funcionários, 20%. Escrever um algoritmo que receba como entrada o salário atual
+e o cargo do funcionário, e imprima o novo salário após o aumento.
+4 - Calculadora: Fazer um algoritmo para ler dois números e um dos símbolos das operações: +, -, * e /. Imprimir o resultado da operação efetuada sobre os números lidos.
