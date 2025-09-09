@@ -1,0 +1,76 @@
+1-
+#include<stdio.h>
+#include<stdlib.h>
+
+int main() {
+    char cidade[20];
+    
+    printf("Informe a sua cidade natal: ");
+    scanf("%s", &cidade);
+    
+    printf("A sua cidade natal é %s.", cidade);
+}
+
+2- 
+#include<stdio.h>
+#include<stdlib.h>
+
+int main() {
+    char nome[20];
+    int idade;
+    float altura;
+    
+    printf("Informe o seu nome: ");
+    scanf("%s", &nome);
+    printf("Informe a sua idade: ");
+    scanf("%i", &idade);
+    printf("Informe a sua altura: ");
+    scanf("%f", &altura);
+    
+    printf("O seu nome é: %s.\n", nome);
+    printf("A sua idade é: %i.\n", idade);
+    printf("A sua altura é: %.2f.\n", altura);
+}
+
+3- 
+#include<stdio.h>
+#include<stdlib.h>
+#define NUM 75.7632489
+
+int main() {
+    printf("Número com 1 casa decimal: %.1f.\n", NUM);
+    printf("Número com 2 casas decimais: %.2f. \n", NUM);
+    printf("Número com 5 casas decimais: %.5f. \n", NUM);
+}
+
+4-
+#include<stdio.h>
+#include<stdlib.h>
+
+int main() {
+    float altura;
+    
+    printf("Informe a sua altura: ");
+    scanf("%f", &altura);
+    
+    printf("A sua altura é: %.2f m.", altura);
+}
+
+5- 
+#include<stdio.h>
+#include<stdlib.h>
+
+int main() {
+    int peso, peso1, peso2;
+    
+    printf("Informe o seu peso: ");
+    scanf("%i", &peso);
+    printf("Informe o peso de outro pessoa: ");
+    scanf("%i", $peso1);
+    printf("Informe o peso de mais uma pessoa: ");
+    scanf("%i", &peso2);
+    
+    printf("O seu peso é: %i. \n", peso);
+    printf("O peso da outra pessoa é: %i. \n", peso1);
+    printf("O peso da segunda pessoa é: %i. \n", peso2);
+}
