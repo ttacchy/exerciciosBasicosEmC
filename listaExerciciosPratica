@@ -1,0 +1,17 @@
+1 - Olá, Mundo Parametrizado
+Escreva um programa que peça seu nome e imprima: "Olá, <nome>!"
+Dica: leia uma string simples com scanf("%'tamanho da string's", nome) (sem espaços) ou use fgets(avançado).
+Exemplo: char nome[50];
+         "%49s" -> sem espaços
+
+2 - Calculadora simples
+Leia dois números e imprima soma, subtração, multiplicação e divisão.
+Dica: cuide da divisão por zero e use %.2f para formatar floats.
+
+3 - Par ou Ímpar
+Leia um número inteiro e informe se é par ou ímpar.
+Dica: use o operador % (módulo) com 2.
+
+4 - Menu com switch
+Implemente um menu com 3 opções que executa ações simples até o usuário escolher sair.
+Dica: laço while + switch + break.
