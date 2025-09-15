@@ -1,0 +1,88 @@
+Lista de Exercícios:
+
+1- Passar para Linguagem C:
+Usando o comando while:
+a) 
+Inicio
+  inteiro: NUM, QUADRADO;
+  {imprime uma msg e lê o 1º número inteiro}
+  imprima("Digite um número inteiro: ");
+  leia(NUM);
+  enquanto NUM != 0 faça
+  QUADRADO <- NUM ** 2;
+  imprima("O quadrado de: ", NUM, "eh", QUADRADO);
+  imprima("Digite um número inteiro: ");
+  leia(NUM);
+  fim enquanto;
+Fim.
+
+b)
+Inicio
+  inteiro SOMA, CONT, NUM; {CONT representa o contador}
+  real: MEDIA;
+  {SOMA o acumulador}
+  {imprime uma msg e lê o 1º número inteiro}
+  imprima("Digite um número inteiro: ");
+  leia(NUM);
+  CONT = 0;
+  SOMA = 0;
+  enquanto NUM != 0 faça
+  CONT = CONT + 1; {contador}
+  SOMA = SOMA + NUM; {acumulador}
+  imprima("Digite um número inteiro: ");
+  leia(NUM);
+  fim enquanto;
+  MEDIA = SOMA/CONT;{e se CONT for zero?}
+  imprima("A média eh: ", MEDIA);
+Fim.
+
+2- Fazer um programa que imprima 10 números de matricula fornecidos um a um pelo usuário. 
+Usando o for.
+__________________________________________________________________________________________
+
+🟢 Nível Fácil (aquecimento)
+
+1- Contagem com while
+Faça um programa que mostre na tela os números de 1 a 10 usando while.
+
+2- Tabuada com do...while
+Peça um número ao usuário e mostre a tabuada dele de 1 a 10, usando do...while.
+
+3- Soma de 5 números com for
+Leia 5 números inteiros e calcule a soma deles com for.
+
+🟡 Nível Intermediário (já começa a suar)
+
+4- Média de valores positivos com while
+Leia números até que o usuário digite um número negativo. Mostre a média dos números positivos lidos.
+
+5- Menu interativo com do...while
+Crie um menu com opções:
+
+1 - Somar dois números
+2 - Subtrair dois números
+0 - Sair
+
+
+O programa só deve terminar quando o usuário escolher 0. Use do...while.
+
+6- Números pares com for
+Mostre todos os números pares entre 1 e 100 usando for.
+
+🔴 Nível Difícil (modo hardcore)
+
+7- Número primo com while
+Peça um número ao usuário e verifique se ele é primo (divisível apenas por 1 e por ele mesmo). Faça a verificação com while.
+
+8- Sequência de Fibonacci com for
+Peça um número n e mostre os primeiros n termos da sequência de Fibonacci usando for.
+
+9- Adivinhação com do...while
+O programa deve sortear um número de 1 a 100. O usuário tenta adivinhar e o programa responde:
+
+“Muito alto” se o chute for maior.
+
+“Muito baixo” se o chute for menor.
+
+“Acertou!” se for igual.
+O laço deve repetir até o usuário acertar.
