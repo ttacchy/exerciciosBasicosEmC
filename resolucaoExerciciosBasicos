@@ -66,7 +66,7 @@ int main() {
     printf("Informe o seu peso: ");
     scanf("%i", &peso);
     printf("Informe o peso de outro pessoa: ");
-    scanf("%i", $peso1);
+    scanf("%i", &peso1);
     printf("Informe o peso de mais uma pessoa: ");
     scanf("%i", &peso2);
     
