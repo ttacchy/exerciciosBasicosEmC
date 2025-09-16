@@ -12,9 +12,9 @@ int main() {
 
     if (num2 != 0) {
         divisao = num1 / num2;
-        printf("Resultado da divisao: %.2f\n", divisao);
+        printf("Resultado da divisão: %.2f\n", divisao);
     } else {
-        printf("Erro: divisao por zero nao permitida.\n");
+        printf("Erro: divisao por zero não permitida.\n");
     }
 
     return 0;
